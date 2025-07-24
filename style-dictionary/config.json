@@ -1,0 +1,13 @@
+{
+  "source": ["tokens/colors.json", "tokens/text.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "style-dictionary/build/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    }
+  }
+}

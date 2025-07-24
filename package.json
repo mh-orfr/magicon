@@ -101,6 +101,7 @@
 		"size-limit": "^6.0.3",
 		"source-map-loader": "^0.2.4",
 		"storybook": "^8.5.8",
+		"style-dictionary": "^5.0.1",
 		"style-loader": "^0.23.1",
 		"svg4everybody": "^2.1.9",
 		"ts-jest": "^28.0.8",
