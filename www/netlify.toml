@@ -1,9 +1,6 @@
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-
 [build]
-command = "yarn build"
-publish = ".next"
+command = "yarn storybook:build"
+publish = ".storybook-static"
 
 [[redirects]]
 from = "/blog"
