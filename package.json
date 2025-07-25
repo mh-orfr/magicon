@@ -14,6 +14,7 @@
 	"scripts": {
 		"build:csb": "yarn build && yarn buildTypes",
 		"build": "turbo run build --filter=@clayui/*",
+		"build:tokens": "yarn --cwd ./style-dictionary build",
 		"buildTypes": "turbo run buildTypes --filter=@clayui/*",
 		"checkDeps": "turbo run build --filter=@clayui/* && node scripts/check-deps/check-dependencies.js",
 		"ci": "yarn lint && yarn format:check && yarn test && yarn checkDeps",
