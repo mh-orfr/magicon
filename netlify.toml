@@ -1,5 +1,5 @@
 [build]
-command = "yarn build && yarn storybook:build"
+command = "yarn --cwd ./style-dictionary build && yarn build && yarn storybook:build"
 publish = ".storybook-static"
 
 [[redirects]]
