@@ -1,5 +1,5 @@
 [build]
-command = "yarn storybook:build"
+command = "yarn build && yarn storybook:build"
 publish = ".storybook-static"
 
 [[redirects]]
